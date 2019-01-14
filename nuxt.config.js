@@ -18,6 +18,15 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   /*
+  ** axios
+  */
+  modules:[
+    '@nuxtjs/axios'
+  ],
+  axios: {
+
+  },
+  /*
   ** Build configuration
   */
   build: {
