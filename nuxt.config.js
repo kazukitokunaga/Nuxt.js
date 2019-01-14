@@ -33,6 +33,15 @@ module.exports = {
   env: {
     QIITA_TOKEN: process.env.QIITA_TOKEN
   },
+
+  /*
+  ** auth
+  */
+  router: {
+    middleware: [
+      'auth'
+    ]
+  },
   /*
   ** Build configuration
   */
